@@ -3,7 +3,7 @@ name: Code Style Check
 on:
   pull_request:
     branches:
-      - master
+      - mainline
 
 jobs:
   prettier:
@@ -23,4 +23,4 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - run: npm install -g prettier
-      - run: prettier --check
+      - run: prettier --check .
