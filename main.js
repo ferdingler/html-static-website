@@ -3,8 +3,10 @@ let i = 0;
 function fizzBuzz() {
   if (i % 2 === 0) {
     appendListItem("fizz");
+    appendListItem("fernando");
   } else {
     appendListItem("buzz");
+    appendListItem("dingler");
   }
 
   i += 1;
