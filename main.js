@@ -2,11 +2,9 @@ let i = 0;
 
 function fizzBuzz() {
   if (i % 2 === 0) {
-    appendListItem("Foo");
-    appendListItem("fernando");
+    appendListItem("fizz");
   } else {
-    appendListItem("Bar");
-    appendListItem("dingler");
+    appendListItem("buzz");
   }
 
   i += 1;
