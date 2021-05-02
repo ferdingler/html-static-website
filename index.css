@@ -1,0 +1,11 @@
+body {
+    background-color: #4d9c2d;
+    color: #FFFFFF
+}
+
+.sbs {
+    height: 200px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
