@@ -1,3 +1,3 @@
 # foo.bar
 
-https://sleepy-goodall-dabe72.netlify.app/
+https://mainline.d1epxfrb9zdrd.amplifyapp.com
