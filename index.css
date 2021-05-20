@@ -8,7 +8,19 @@ body {
   margin: 0 auto;
 }
 
-.sbs {
-  height: 200px; 
+
+/* Setting sizes for the image */
+/* Desktops, large screens */
+@media (min-width: 1025px) {
+  .sbs {height: 300px;}
 }
+
+/* Small screens, laptops */
+@media (max-width: 1024px) {
+  .sbs {height: 450px;}
+}
+
+
+  
+
 
